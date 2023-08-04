@@ -1,0 +1,49 @@
+<!DOCTYPE *html*>
+
+<html *lang*="pt-BR">
+
+<head>
+
+    <meta *charset*="utf-8">
+    <title> Fundamentos do PHP </title>
+    <link *rel*="stylesheet" *href*="formata-formulario.css">
+
+</head>
+
+<body>
+
+    <h1> Fundamentos do PHP - listaL1 - exercicio7 </h1>
+    <form *action*="recebe-dados.php" *method*="post">
+
+        <fieldset>
+
+            <legend>Supermecado ISAS - Processamento de vendas</legend>
+            <label *class*="alinha"> Valor da compra do cliente: </label>
+            <input *type*="number" *name*="valor-compra" *autofocus* *step*="0.01" *min*="0"> <br>
+            <label>Cliente pagou com cartão?</label><br>
+
+            <!--botão rádio "SE". Uma variável para duas informações, o que vai diferenciar string "SIM ou NÃO". Agora entra o if e else-->
+
+            <input *type*="radio" *name*="forma-pagamento" *value*="Sim">
+            <label> Sim, o cliente pagou com cartão. </label> <br>
+            <input *type*="radio" *name*="forma-pagamento" *value*="Não">
+            <label> Não, o cliente não pagou com cartão. </label><br><br><br>
+            <label>Cliente solicitou entrega domicilio?</label><br>
+
+            <input *type*="radio" *name*="forma-entrega" *value*="Sim"> <label> Sim, o cliente solicitou entrega
+                domicilio?
+            </label><br>
+
+            <input *type*="radio" *name*="forma-entrega" *value*="Não"> <label> Não, o cliente não solicitou entrega
+                domicilio?
+            </label><br>
+
+            <button>Calculo da compra</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

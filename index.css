@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto+Condensed&display=swap');
+
+body {
+
+    font-family: "Roboto Condensed";
+    margin: 0;
+
+}
+
+h1 {
+
+    margin: 0;
+    border-bottom: 1px solid #444444;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(130, 130, 130);
+    text-shadow: 1px 1px rgb(55, 55, 55);
+    box-shadow: 0 0 5px 5px rgb(40, 40, 40);
+
+}
+
+fieldset {
+
+    width: 70%;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+
+    /* Centralização automatica*/
+
+    padding-top: 30px;
+
+}
+
+legend {
+    margin: auto;
+}
+
+label*.alinha* {
+    width: 200px;
+    display: inline-block;
+
+    /* Está propriedade permite que apliquemos um alinhamento especial dos labels em relação a suas caixas*/
+
+    margin-bottom: 10px;
+    text-align: right;
+
+}
+
+input*#maior* {
+    width: 200px;
+}
+
+button {
+    height: 50px;
+    font-family: "Edu SA Beginner";
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    /* */
+
+    margin-top: 30px;
+
+}
+
+input {
+    font-family: "Edu SA Beginner";
+    font-size: 16px;
+}
+
+p {
+    border: 1px solid #0000;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px 5px rgb(40, 40, 40);
+}
+
+span {
+    color: rgb(38, 76, 192);
+    font-style: italic;
+}
